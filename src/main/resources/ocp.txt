@@ -1,0 +1,4 @@
+Open Closed Principle
+Element oprogramowania powinien być otwarty na rozbudowę, ale zamknięty na modyfikacje
+Otwarte na rozbudowę – zachowanie modułu może być rozszerzane w miarę zmiany wymagań aplikacji.
+Zamknięte na modyfikacje – rozszerzanie funkcjonalności aplikacji następuje na skutek dodawania nowych modułów, zamiast modyfikacji już istniejących.

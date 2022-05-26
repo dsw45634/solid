@@ -1,0 +1,8 @@
+Single Responsibility Principle
+Każdy moduł powinien mieć jedną i tylko jedną przyczynę zmian
+Reguła ta często jest mylona z zasadą mówiącą, że każda funkcja powinna robić tylko jedną rzecz, stąd wiele osób twierdzi, że każdy moduł powinien mieć jedną funkcję, co nie jest prawdą.
+Każdy moduł powinien być odpowiedzialny za jedną grupę funkcjonalności, ponieważ wymagania jakie musi spełnić system mogą ulec zmianie, wtedy trzeba dokonać modyfikacji modułu. Jeżeli moduł jest odpowiedzialny za więcej niż jedną grupę funkcjonalności – ma więcej niż jeden powód do zmiany, wtedy dokonanie modyfikacji staje się trudne lub niemożliwe.
+Systemy informatyczne są tworzone dla ludzi, dlatego jeżeli zaistnieje konieczność dokonania zmian, przyczyną będzie spełnienie wymagań użytkownika (reprezentanta grupy użytkowników). W Związku z tym można zasadę opisać również zdaniem:
+Każdy moduł powinien odpowiadać przed jednym i tylko jednym aktorem
+Moduł – spójny zbiór funkcji i struktur danych (w javie klasa).
+Jeśli moduł jest spójny to spełnia zasadę SRP.

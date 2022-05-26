@@ -1,0 +1,6 @@
+Liskov Substitution Principle
+Musi być możliwość podstawienia typów pochodnych za ich typy bazowe.
+Barbara Liskov po raz pierwszy zapisała tę zasadę w roku 1988:
+Poszukujemy następującej właściwości podstawienia: Jeśli dla każdego obiektu O1 typu S istnieje obiekt O2 typu T taki, że dla wszystkich programów P zdefiniowanych w kategoriach T zachowanie P pozostanie nie zmienione, gdy O1 zostanie podstawione za O2, to S jest podtypem T.
+Przykład naruszenia zasady:
+Załóżmy, że istnieje metoda, która pobiera jako argument referencję do obiektu klasy bazowej (w javie przekazywana jest kopia referencji). Klasa bazowa ma swoją pochodną, której obiekt (kopia referencji do obiektu) może zostać podany do metody. Jeżeli metoda zadziała nieprawidłowo, to znaczy, że klasa potomna narusza zasadę LSP. Metoda może zawierać warunek sprawdzający typ podanego argumentu, aby zachować poprawność działania, lecz będzie to naruszenie zasady OCP, ponieważ metoda nie jest zamknięta na wszystkie pochodne klasy bazowej jakie mogą powstać.

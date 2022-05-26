@@ -1,0 +1,3 @@
+Interface Segragation Principle
+Zasada ISP dotyczy obiektów które wymagają niespójnych interfejsów. Zgodnie z zasadą należy rozdzielić te interfejsy tak aby klienci korzystający z ich metod nie wiedzieli, że należą do jednej klasy. Klienci powinni korzystać z abstrakcyjnych klas bazowych które mają spójne interfejsy.
+Metody niespójnych interfejsów powinny zostać podzielone ze względu na klientów którzy z nich korzystają.
